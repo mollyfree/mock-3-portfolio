@@ -1,8 +1,8 @@
-/*
+
 * {
   border: 1px solid red !important;
 }
-*/
+
 
 * {
   -webkit-box-sizing: border-box;
@@ -13,6 +13,7 @@
 
 * {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 300px) {
@@ -26,7 +27,7 @@
 
 .grid {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
     width: 100%;
 }
 
@@ -101,13 +102,8 @@ h1 {
   font-weight: 100; 
 }
 
-.image {
-  padding: 20px;
-}
-
-img {
-  display: block;
-  margin: auto;
+.image img {
+  padding: 20px 0;
 }
 
 .work {
@@ -116,16 +112,21 @@ img {
   text-align: center;
 }
 
+.work img {
+  display: block;
+  margin: 0 auto;
+}
+
 h2 {
   color: #BCBBBB;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 200%;
   text-align: left;
 }
 
 h3 {
   color: #747704;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 300%;
 }
 

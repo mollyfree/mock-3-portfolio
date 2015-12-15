@@ -88,21 +88,22 @@
 
 /* PAGE STYLES */
 
-.header {
+header {
   text-align: right;
   border-bottom: 5px solid #BCBBBB;
 }
 
-.header img {
+header img {
   float: left;
   padding: 10px;
+  max-width: 100px;
 }
 
 h1 { 
   font-weight: 100; 
 }
 
-.image img {
+.hero img {
   padding: 20px 0;
 }
 
@@ -115,6 +116,7 @@ h1 {
 .work img {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 h2 {

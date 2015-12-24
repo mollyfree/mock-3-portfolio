@@ -1,8 +1,9 @@
 
+/*
 * {
   border: 1px solid red !important;
 }
-
+*/
 
 * {
   -webkit-box-sizing: border-box;
@@ -95,12 +96,18 @@ header {
 
 header img {
   float: left;
-  padding: 10px;
-  max-width: 100px;
+  margin: 45px 0 0 0;
 }
 
 h1 { 
-  font-weight: 100; 
+  font-weight: 100;
+  font-size: 400%;
+  margin-bottom: 0;
+}
+
+header p {
+  font-size: 200%;
+  margin: 5px 0 10px 0;
 }
 
 .hero img {
@@ -111,6 +118,7 @@ h1 {
   display: block;
   margin: auto;
   text-align: center;
+  margin: -20px 0 0 0;
 }
 
 .work img {
@@ -122,16 +130,23 @@ h1 {
 h2 {
   color: #BCBBBB;
   font-weight: 300;
-  font-size: 200%;
+  font-size: 250%;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 h3 {
   color: #747704;
   font-weight: 300;
   font-size: 300%;
+  margin: 10px auto -10px auto;
 }
 
+a {
+  color: #BCBBBB;
+  text-decoration: none;
+  margin-top: -100px;
+}
 
 
 

@@ -90,36 +90,24 @@
 /* PAGE STYLES */
 
 header {
-  text-align: center;
-  border-bottom: 5px solid #00518D;
+  text-align: right;
+  border-bottom: 5px solid #BCBBBB;
 }
 
-/*header img {
+header img {
   float: left;
   margin: 45px 0 0 0;
-  border-radius: 200px;
-  max-width: 100px;
 }
-*/
 
-h1 {
+h1 { 
   font-weight: 100;
   font-size: 400%;
   margin-bottom: 0;
 }
 
 header p {
-  color: #00759F;
   font-size: 200%;
   margin: 5px 0 10px 0;
-}
-
-body {
-
-}
-
-.hero {
-    border-bottom: 5px solid #00518D;
 }
 
 .hero img {
@@ -140,7 +128,7 @@ body {
 }
 
 h2 {
-  color: #00759F;
+  color: #BCBBBB;
   font-weight: 300;
   font-size: 250%;
   text-align: left;
@@ -148,14 +136,14 @@ h2 {
 }
 
 h3 {
-  color: #262125;
+  color: #747704;
   font-weight: 300;
-  font-size: 200%;
+  font-size: 300%;
   margin: 10px auto -10px auto;
 }
 
 a {
-  color: #B6B0B4;
+  color: #BCBBBB;
   text-decoration: none;
   margin-top: -100px;
 }
